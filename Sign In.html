@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: hidden; 
+            margin: 0;
+        }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden; 
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1; 
+            width: 100%;
+            color: #F875AA;
+        }
+
+        .text form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #F875AA;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        .form-floating {
+            margin-bottom: 20px;
+        }
+
+        .btn-pink {
+            background-color: pink;
+            border-color: pink;
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+
+    <title>Sign in</title>
+
+</head>
+
+<body>
+        <div class="text">
+            <form>
+                <h1>Aetherial Academy - Login</h1>
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email Address">
+                    <label for="floatingInput">Email Address</label>
+                </div>
+
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+
+                <button class="btn btn-pink" type="button">
+                    <a href="Homepage.html" class="btn-pink">Sign In</a>
+                </button>
+                <br> <br>
+                <h2>Castro, Pamoceno, Sumaya</h2>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

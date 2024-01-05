@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> About Us - The Aetherial Academy </title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "icon" href="Pictures/Logo.png" type = "image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Questrial&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?Playfair+Display:wght@700&display=swap" rel="stylesheet">
+	<style> 
+	
+		body {
+			background-color:#FFF2D8; 
+			font-family:Garamond;
+		}
+		
+		header {
+			background-color:white; 
+			padding:30px;
+			text-align:center;
+			font-family: 'Quicksand';
+		}
+	
+		h1 { 
+			font-family: 'Quicksand';
+			text-align:center;
+			font-size:30px;
+			color:black;
+		}
+		
+		img {
+			width:100%;
+			height:100%;
+			max-width:300px;
+		}
+		
+		h2, h3 {
+			font-family: 'Quicksand';
+			text-align:center;
+			padding: 20px;
+			background-color:#A87676;
+			color:#fff;
+			border: none;	
+		}
+	
+		p {
+			font-family:'Playfair Display';
+			font-size:41px;
+		}
+		
+		.wow img {
+			width:50%;
+		} 
+		
+		.wow {
+			float: right;
+			margin: 0px 0px 15px 20px;
+		}
+		
+		.omsim {
+			float:left;
+			margin: 0px 0px 0px 0px;
+		}
+		
+		hr {
+            margin: 20px 0; 
+            border: 1px solid #F875AA;
+        }
+		
+		
+		nav ul {
+			margin: 0;
+			padding: 40px;
+		}
+
+		nav ul li {
+			display: inline-block;
+		}
+
+		nav ul li a {
+			color: pink;
+			padding: 10px;
+		}
+		
+		#About {
+			padding: 50px;
+		}
+		
+		video {
+			align:center;
+			width:100%;
+			height:auto;
+			margin: auto 0px;
+			display:block
+		}
+		
+		
+        @media only screen (max-width: 390px) {
+		
+			
+			header {
+				width:600px;
+				text-align:center;
+				float:center;	
+				font-size: clamp(0.9375rem, -6.875rem + 33.3333vw, 1.25rem);
+			}
+			
+			.description1 {
+				font-size:font-size: clamp(0.9375rem, -6.875rem + 33.3333vw, 1.25rem);
+			}
+			
+			h2, h3 {
+                padding: 15px;
+            }
+
+			body {
+				font-size:6em;
+			}
+			
+			.description1 img,
+			.description2 img,
+			.description3 img {
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: 0 auto; 
+			}
+			
+			.wow, .omsim {
+                float: none;
+                margin: 0;
+            }
+			
+			nav {
+				font-size:30px;
+				padding: 10px;
+				text-align:center;
+			}
+	
+			
+			h2, h3 {
+                padding: 15px;
+            }
+
+			body {
+				font-size:6em;
+			}
+			
+			.description1 img,
+			.description2 img,
+			.description3 img {
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: 0 auto; 
+			}
+			
+			.wow, .omsim {
+                float: none;
+                margin: 0;
+            }
+			
+			nav ul li {
+				display: inline-block;
+				font-size: clamp(0.9375rem, -6.875rem + 33.3333vw, 1.25rem);;
+				padding: 10px;
+				text-align:left;
+			}
+        }
+
+        @media only screen (max-width:768px) {	
+			header {
+				padding: 10px; 
+			}
+
+			nav ul {
+				padding: 10px; 
+			}
+
+			nav ul li {
+				display: block;
+				margin: 5px 0;
+			}
+			
+			h1 {
+				font-size: 24px; 
+			}
+
+			h2, h3 {
+				font-size: 22px;
+				padding:10px;
+				margin:10px;
+			}
+
+			p {
+				font-size: 18px;
+			}
+
+
+			#About, #History, #Faculty {
+				font-size: 10px; 
+				padding:10px;
+				margin:10px;
+			}
+
+			h2, h3 {
+                font-size:10px;
+				padding:10px;
+            }
+			
+			.description1 img {
+				max-width:1000px;
+			}
+		}
+			
+		@media only screen and (min-width: 1536px) and (max-width: 1920px) {
+			
+			header {
+				width:100%;
+				height:260px;
+				text-align:right;
+				float:center;	
+				margin:-10px;
+				font-size:30px;
+			} 
+			
+			.description1 p {
+			font-size:50px;
+			}
+			
+			.description2 p {
+			font-size:38px;
+			}
+			
+			h2 {
+                padding: 10px;
+            }
+			
+			.description1 img, .description2 img, .description3 img {
+				max-width:1050px;
+			}
+			
+		}
+		img.header-logo {
+		  width: 100px; /* Adjust the width as needed */
+		  height: auto;
+    }
+		
+			
+	</style>
+	
+	</head>
+	
+	<body>
+
+		<header>
+			<nav>
+				<img src="Pictures/logoo.png" width="300" height="300" align="left">
+				<ul>
+					
+					<li><a href="#About">About Us</a></li>
+					<li><a href="#History">History </a><li>
+					<li><a href="#Faculty">Administrators and Teachers</a> </li>
+					<li><a href="Contact Us Page.html"> Contact Us </a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="yes">
+			<video autoplay loop muted>
+            <source src="Pictures/About Us Video.mp4" type="video/mp4">
+        </video>
+		</section>
+		
+
+		<section id="#About">
+			<div class="description1" id="About">
+			<img src="Pictures/Pic1.png" alt="pic1" width="600" height="700" class="wow"> 
+			<h2> About Us</h2>
+				<hr> 
+			<p> The <b> <span style="color:#A87676;"> Aetherial Academy </span> </b>is a distinguished institution committed to fostering the dreams and ambitions of 
+				every child. This educational establishment stands as a testament to their vision, providing an environment 
+				where each student is empowered to aspire and attain their goals freely. The values of the Aetherial Academy 
+				revolves around instilling core values in every student, creating a foundation based on <b> <span style="color:#A87676;"> 
+				compassion, integrity, and humility. </span> </b>  Through a holistic approach to education, the school not only imparts knowledge but also molds 
+				individuals into well-rounded personalities, ensuring that these encompassed values become an integral part 
+				of each student's character.
+			</p>
+			</div>
+		</section> 
+		
+		
+		<section id="History">
+			<div class="description2" id="History">
+			<img src="Pictures/History.png" alt="pich&i" width="600" height="700" class="omsim">
+			<h3> History </h3> <hr>
+			<p> 
+			The Aetherial Academy had its humble beginnings rooted in the collective vision and passion of three remarkable 
+			individuals: <b> <span style="color:#A87676;"> Jhoyce, Ashley, and Hannah. </span> </b> In the <b> <span style="color:#A87676;">  November of 2023 </span> </b> , 
+			these visionary educators set forth on a journey to establish a school that would transcend traditional educational norms and provide a haven for children 
+			to <b> <span style="color:#A87676;">  explore, dream, and achieve. </span> </b>  The name "Aetherial" was chosen with care, symbolizing 
+			<b> <span style="color:#A87676;">  the ethereal and transcendent nature of the 
+			learning experience </span> </b> they aspired to offer. The founders envisioned a place where the pursuit of knowledge 
+			would be accompanied by the nurturing of virtues—where academic excellence and character development would go hand in hand. As the Aetherial Academy continued 
+			to flourish, its impact extended far beyond the confines of its campus. This is	Aetherial Academy - Elevate Minds, Empower dreams. </p>
+			</div>
+		</section> 
+		
+		<section id="#Faculty">
+			<div class="description3" id="Faculty">
+			<img src="Pictures/Teachers.png" alt="pic3" width="600" height="700" class="wow"> 
+			<h3> Administrators and Teachers </h3>
+				<hr> 
+			<p>
+			Meet the driving force behind the Aetherial Academy, <b> <span style="color:#A87676;"> Jhoyce </span> </b> , an educator with a passion for transformative learning. Jhoyce, along with visionary administrators 
+			<b> <span style="color:#A87676;">Ashley and Hannah </span> </b> , has crafted a unique educational experience. In the realm of biology, <b> <span style="color:#A87676;"> Professor Bio </span> </b> leads students through captivating laboratory activities,
+			exploring the wonders of life and the function of every organ. <b> <span style="color:#A87676;"> Madame Engl </span> </b>  takes on the role of English teacher, guiding students in the art of sonnet writing. Jhoyce, Ashley, and Hannah collectively weave a 
+			tapestry of educational experiences, combining scientific exploration in biology with the literary creativity of English studies. With this dynamic team, Aetherial Academy blends scientific exploration and 
+			literary creativity, fostering a holistic approach to education that sparks
+			both <b> <span style="color:#A87676;"> intellectual </span> </b> and <b> <span style="color:#A87676;"> artistic curiosity. </span> </b>
+			</p>
+			</div>
+		</section> 
+		
+	
+			
+		
+	</body>
+</html>
